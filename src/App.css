@@ -1,0 +1,16 @@
+.App {
+  width: 700px;
+  height: 550px;
+  background-color: aqua;
+  border: 2px solid black;
+}
+.meme {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pp{
+    color: black;
+}

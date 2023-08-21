@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    background-color: blueviolet;
+}
+
+.logo {
+    width: 62px;
+    height: 62px;
+}
+
+.title {
+    font-size: 20px;
+    color: antiquewhite;
+    padding-left: 10px;
+    font-family: monospace;
+}
+
+.down,
+.up {
+    margin-top: 30px;
+    width: 320px;
+    margin-left: 10px;
+    height: 30px;
+}
+
+.button {
+    font-size: 20px;
+    cursor: pointer;
+    font-family: monospace;
+    margin-top: 15px;
+    width: 600px;
+    margin-left: 45px;
+    height: 40px;
+    background-color: blueviolet;
+}
+
+.input {
+    display: flex;
+    justify-content: space-evenly;
+}

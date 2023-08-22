@@ -10,7 +10,7 @@ function App() {
         <Header></Header>
         <Meme/>
         {/* <Additem/> */}
-        <State/>
+        {/* <State/> */}
        </div>
     </div>
   );

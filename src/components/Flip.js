@@ -1,9 +1,7 @@
 import React from 'react'
 
 export default function Flip() {
-
- const [flip,setFlip] = React.useState(true);
-
+ const [flip,setFlip] = React.ueState(true);
  function handleclick(){
     //setFlip(prev=>prev?false:true);
     //or we put just opposite

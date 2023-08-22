@@ -37,7 +37,7 @@ function plusOne(){
     setCounter((counter) => counter+1);
 }
 function minusOne(){
-    (counter>0)?setCounter((counter)=>counter-1):setCounter((counter)=>0);
+     setCounter((counter)=>counter-1);
 }
 return (
     <>

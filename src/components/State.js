@@ -39,8 +39,12 @@ function plusOne(){
 function minusOne(){
      setCounter((counter)=>counter-1);
 }
+function reset(){
+    setCounter((counter)=>0);
+}
 return (
     <>
+    <p onClick={reset}>reset</p>
     <p onClick={plusOne}>+</p>
     <div>
        {counter}

@@ -12,7 +12,7 @@ function App() {
         <Header></Header>
         {/* <Meme/> */}
         {/* <Additem/> */}
-        <Card/> 
+        <Card/>
         {/* <State/> */}
         {/* <Flip/> */}
        </div>

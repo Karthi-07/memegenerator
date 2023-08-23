@@ -11,7 +11,7 @@ export default function Additem() {
 
   const [thingsArray,setThingsArray] = React.useState([["Things 1,Things 2"]]);
   function handle(){
-    setThingsArray((array=>[...array,`Things ${array.length}`]))
+    setThingsArray((array=>[...array,`Things ${array.length+2}`]))
   }
   return (
     <div>

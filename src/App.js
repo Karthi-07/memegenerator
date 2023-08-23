@@ -12,7 +12,6 @@ function App() {
         <Header></Header>
         {/* <Meme/> */}
         <Additem/>
-         <Card/>
         {/* <State/> */}
         {/* <Flip/> */}
        </div>
@@ -21,3 +20,4 @@ function App() {
 }
 
 export default App;
+  

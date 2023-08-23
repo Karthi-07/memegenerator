@@ -8,16 +8,15 @@ export default function Additem() {
   //    things.push("item"+(things.length+1));
   //    console.log(things);
   // } 
-
-  const [thingsArray,setThingsArray] = React.useState([["Things 1,Things 2"]]);
+  const [thingsArray,setThingsArray] = React.useState(["Things 1","Things 2"])
   function handle(){
-    setThingsArray((array=>[...array,`Things ${array.length+2}`]))
+    setThingsArray(prev=>[...prev,`Things ${thingsArray.length+1}`])
   }
   return (
     <div>
          <button onClick={handle}>add item</button>
-         <h3>{thingsArray}</h3>
         {/* <p className="pp">Data : {data}</p> */}
+        {thingsArray}
     </div>
   )
 }

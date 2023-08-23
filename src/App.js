@@ -4,6 +4,7 @@ import Meme from "./components/Meme.js"
 import Header from "./components/Header.js"
 import Additem from './components/Additem';
 import State from './components/State';
+import Card from './components/Card';
 function App() {
   return (
     <div className="meme">
@@ -11,6 +12,7 @@ function App() {
         <Header></Header>
         {/* <Meme/> */}
         <Additem/>
+         <Card/>
         {/* <State/> */}
         {/* <Flip/> */}
        </div>

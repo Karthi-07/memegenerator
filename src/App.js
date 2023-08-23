@@ -11,7 +11,8 @@ function App() {
        <div className="App">
         <Header></Header>
         {/* <Meme/> */}
-        <Additem/>
+        {/* <Additem/> */}
+        <Card/>
         {/* <State/> */}
         {/* <Flip/> */}
        </div>

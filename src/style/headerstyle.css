@@ -38,3 +38,10 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+.memeimage{
+    margin-left: 180px;
+    margin-top: 30px;
+    width: 300px;
+    height: 300px;
+}

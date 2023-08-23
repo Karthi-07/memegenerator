@@ -1,4 +1,5 @@
 import './App.css';
+import Flip from './components/Flip';
 import Meme from "./components/Meme.js"
 import Header from "./components/Header.js"
 import Additem from './components/Additem';
@@ -8,9 +9,10 @@ function App() {
     <div className="meme">
        <div className="App">
         <Header></Header>
-        <Meme/>
-        {/* <Additem/> */}
-        <State/>
+        {/* <Meme/> */}
+        <Additem/>
+        {/* <State/> */}
+        {/* <Flip/> */}
        </div>
     </div>
   );

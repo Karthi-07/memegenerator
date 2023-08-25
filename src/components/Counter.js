@@ -1,5 +1,5 @@
 import React from 'react'
-export default function State() {
+export default function Counter() {
    // const useState = React.useState("Hello");
     /* use State generally returns an array with first parameter as
        and second parameter as a callback function 

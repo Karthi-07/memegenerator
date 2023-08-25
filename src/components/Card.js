@@ -14,15 +14,25 @@
         email:"abcdef@gmail.com",
         isFavorite:true
     })
-    // function toggle(){
-    //     setCard(prev=>prev.isFavorite?false:true);
-    // }
+    function toggle(){
+        setCard(prev=>{
+          return {
+            // firstname: prev.firstname,
+            // lastname:prev.lastname,
+            // DoB:prev.DoB,
+            // phone:prev.phone,
+            // email:prev.email,
+            ...prev,
+            isFavorite:!prev.isFavorite
+           }
+        })
+    }
     var image = (card.isFavorite)?filledstar:emptystar;
     return (
      <>
       <div className='card'>
           <img src={profile} className='card-image'></img><br/>
-          <img src={image} className='fav'/>
+          <img src={image} onClick={toggle} className='fav'/>
           <p>{card.firstname}{card.lastname}</p>
           <p>{card.phone}</p>
           <p>{card.email}</p>

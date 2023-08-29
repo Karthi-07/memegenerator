@@ -10,9 +10,10 @@ function App() {
     <div className="meme">
        <div className="App">
         <Header></Header>
-        <Meme/>
+        {/* <Meme/> */}
         {/* <Additem/> */}
-        {/* <Card/> */}
+        <Card/>
+        {/* <Counter/> */}
         {/* <State/> */}
         {/* <Flip/> */}
        </div>

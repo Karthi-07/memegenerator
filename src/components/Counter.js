@@ -1,4 +1,5 @@
 import React from 'react'
+import Count from './Count';
 export default function Counter() {
    // const useState = React.useState("Hello");
     /* use State generally returns an array with first parameter as
@@ -46,9 +47,7 @@ return (
     <>
     <p onClick={reset}>reset</p>
     <p onClick={plusOne}>+</p>
-    <div>
-       {counter}
-    </div>
+    <Count number={counter}/>
     <p onClick={minusOne}>-</p>
    </>
   )

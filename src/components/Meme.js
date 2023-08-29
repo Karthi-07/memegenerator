@@ -9,16 +9,17 @@ const Meme = () => {
                          bottomtext:"bottom text",
                          url:"https://i.imgflip.com/30b1gx.jpg"})
   
-  function handleclick() {
+ const[allMemeImages,setAllMemeImages] = useState({memesData})
+
+ function handleclick() {
     var arr = memesData.data.memes;
     var p = Math.floor(Math.random()*arr.length);
-    let first = document.getElementById("up").value;
-    let last = document.getElementById("down").value;
-    console.log(first+" "+last);
+    // let first = document.getElementById("up").value;
+    // let last = document.getElementById("down").value;
+    // console.log(first+" "+last);
     setMeme((prev)=>{
       return {
-        toptext:first,
-        bottomtext:last,
+        ...prev,
         url:memesData.data.memes[p].url
       }})
   }
